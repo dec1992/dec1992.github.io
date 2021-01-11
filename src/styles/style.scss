@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 // Set your brand colors
-$purple: #66bfbf;
+$yellow: #facd01;
 $pink: #fa7c91;
-$brown: #727070;
+$white: #ffffff;
 $green: #056674;
 $beige-light: #e0ece4;
 $beige-lighter: #e0ece4;
@@ -16,10 +16,10 @@ $beige-lighter: #e0ece4;
 // Update Bulma's global variables
 $family-primary: "Bebas Neue", sans-serif;
 $family-secondary: "Roboto", sans-serif;
-$grey-dark: $brown;
+$grey-dark: $white;
 $grey-light: $beige-light;
-$primary: $purple;
-$secondary: $brown;
+$primary: $yellow;
+$secondary: $white;
 $link: $green;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
@@ -43,5 +43,22 @@ $link: $green;
 // $react-rater-link: rgb(191, 246, 191) !default; // color of star not rated
 // $react-rater-hover: rgb(110, 235, 79) !default; // color of star on hover
 // $react-rater-active: rgb(123, 251, 4) !default; // color of star rated
+#whitelink:hover {
+  color: white
+}
+
+#icon {
+  font-size: 4rem;
+  color: $primary
+}
+
+#icon:hover {
+  color: $secondary;
+      transform: scale(1.1);
+      transition: all .1s ease
+}
+
+
 
 @import "../../node_modules/bulma/bulma.sass";
+

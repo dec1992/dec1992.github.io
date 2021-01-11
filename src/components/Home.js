@@ -1,26 +1,24 @@
 import React from 'react'
 
 const Home = () => {
-  return <section className="hero is-dark is-fullheight">
+  return <section className="hero is-primary is-fullheight">
     <div className="hero-head">
       <nav className="navbar">
         <div className="container">
 
           <div id="navbarMenuHeroB" className="navbar-menu">
             <div className="navbar-end">
-              <a className="navbar-item is-active">
-                Home
-              </a>
-              <a className="navbar-item">
+      
+              <a id="whitelink" className="navbar-item">
                 About
               </a>
-              <a className="navbar-item">
+              <a id="whitelink" className="navbar-item">
                 Projects
               </a>
-              <a className="navbar-item">
+              <a id="whitelink" className="navbar-item">
                 Photography
               </a>
-              <a className="navbar-item">
+              <a id="whitelink" className="navbar-item">
                 Contact
               </a>
             </div>
@@ -35,7 +33,7 @@ const Home = () => {
           Dec Burns
         </p>
         <p className="subtitle">
-          Software Engineer | Photographer | Musician
+          <a id="whitelink">Software Engineer</a> | <a id="whitelink">Photographer</a> | <a id="whitelink">Musician</a>
         </p>
       </div>
     </div>
