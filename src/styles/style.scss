@@ -10,7 +10,7 @@ $yellow: #facd01;
 $pink: #fa7c91;
 $white: #ffffff;
 $green: #056674;
-$beige-light: #e0ece4;
+$beige-light: #353535;
 $beige-lighter: #e0ece4;
 
 // Update Bulma's global variables
@@ -20,7 +20,7 @@ $grey-dark: $white;
 $grey-light: $beige-light;
 $primary: $yellow;
 $secondary: $white;
-$link: $green;
+$link: $beige-light;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
 // $navbar-breakpoint: 500px;
@@ -47,15 +47,76 @@ $link: $green;
   color: white
 }
 
+#icon-container {
+  padding: 30px;
+  margin: 10px
+}
+
 #icon {
   font-size: 4rem;
-  color: $primary
+  color: $primary;
 }
 
 #icon:hover {
   color: $secondary;
       transform: scale(1.1);
       transition: all .1s ease
+}
+
+#slideNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#arrow:hover {
+  color: $secondary;
+      transform: scale(1.1);
+      transition: all .1s ease
+}
+
+#arrow {
+  font-size: 1rem;
+  margin: 0px 30px 0px 30px;
+}
+
+#slideNumber {
+  font-size: 1rem;
+  margin: 0px 20px 0px 20px;
+}
+
+#slideNumber:hover, #projecticon:hover, #project-icon-container:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all .1s ease;
+}
+
+#project-icon-container {
+  margin: 0 50px;
+  flex-direction: column;
+}
+
+#projecticon {
+  font-size: 4rem;
+  padding: 5px;
+}
+
+#underline {
+  width: 30%;
+  border: 0.5px solid $link;
+  margin: 0 auto
+}
+
+#contact-link:after {
+  display: block;
+  padding: 5px 0px 5px 0px;
+  content: '';
+  border-bottom: solid 3px $primary; 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+#contact-link:hover:after {
+  transform: scaleX(1);
 }
 
 
