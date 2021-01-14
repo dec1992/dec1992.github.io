@@ -1,7 +1,8 @@
 import React from 'react'
+import Slide from 'react-reveal/Slide'
 
 const Skills = () => {
-  return <div className="column has-text-centered">
+  return <Slide right><div className="column has-text-centered">
     <p className="subtitle has-text-primary">Skills</p>
     <div id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-javascript-plain"></i>
@@ -63,6 +64,6 @@ const Skills = () => {
     <div id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-illustrator-plain"></i>
     </div>
-  </div>
+  </div></Slide>
 }
 export default Skills

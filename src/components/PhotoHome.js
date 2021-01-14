@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
+import Typing from 'react-typing-animation'
+
 const DownArrow = <FontAwesomeIcon id="arrow" icon={faAngleDown} />
 
 const Home = () => {
@@ -14,7 +16,7 @@ const Home = () => {
 
           <div id="navbarMenuHeroB" className="navbar-menu">
             <div className="navbar-end">
-      
+
               <a href="#Gallery" id="whitelink" className="navbar-item has-text-primary">
                 Gallery
               </a>
@@ -35,12 +37,14 @@ const Home = () => {
 
     <div className="hero-body">
       <div className="container has-text-centered">
-        <p className="title has-text-primary">
-          Dec Burns
-        </p>
-        <p className="subtitle has-text-primary">
-          <Link to="/" id="whitelink" className="has-text-primary">Software Engineer</Link> | <a href="#Gallery" id="whitelink" className="has-text-primary">Photographer</a> | <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer" className="has-text-primary">Musician</a>
-        </p>
+        <Typing>
+          <p className="title has-text-primary">
+            Dec Burns
+          </p>
+          <p className="subtitle has-text-primary">
+            <a href="#Gallery" id="whitelink" className="has-text-primary">Photographer</a> | <Link to="/" id="whitelink" className="has-text-primary">Software Engineer</Link> |  <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer" className="has-text-primary">Musician</a>
+          </p>
+        </Typing>
       </div>
     </div>
     <div id="scroll" className="has-text-centered">

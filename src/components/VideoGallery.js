@@ -29,17 +29,17 @@ class VideoGallery extends React.Component {
 
     this.images = [
       {
-        thumbnail: 'https://img.youtube.com/vi/es3SWImE2yw/mqdefault.jpg',
-        original: 'https://img.youtube.com/vi/es3SWImE2yw/maxresdefault.jpg',
-        embedUrl: 'https://www.youtube.com/embed/es3SWImE2yw',
-        description: 'Molars - Small Odds & Smoking (Music Video)',
-        renderItem: this._renderVideo.bind(this)
-      },
-      {
         thumbnail: 'https://img.youtube.com/vi/rKcHLrs_Ey8/mqdefault.jpg',
         original: 'https://img.youtube.com/vi/rKcHLrs_Ey8/maxresdefault.jpg',
         embedUrl: 'https://www.youtube.com/embed/rKcHLrs_Ey8',
         description: 'Molars - Negative Thinking (Music Video)',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: 'https://img.youtube.com/vi/es3SWImE2yw/mqdefault.jpg',
+        original: 'https://img.youtube.com/vi/es3SWImE2yw/maxresdefault.jpg',
+        embedUrl: 'https://www.youtube.com/embed/es3SWImE2yw',
+        description: 'Molars - Small Odds & Smoking (Music Video)',
         renderItem: this._renderVideo.bind(this)
       },
       {

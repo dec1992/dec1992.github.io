@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
+import Typing from 'react-typing-animation'
+
 const DownArrow = <FontAwesomeIcon id="arrow" icon={faAngleDown} />
 
 const Home = () => {
@@ -14,7 +16,7 @@ const Home = () => {
 
           <div id="navbarMenuHeroB" className="navbar-menu">
             <div className="navbar-end">
-      
+
               <a href="#About" id="whitelink" className="navbar-item">
                 About
               </a>
@@ -35,12 +37,15 @@ const Home = () => {
 
     <div className="hero-body">
       <div className="container has-text-centered">
-        <p className="title">
-          Dec Burns
-        </p>
-        <p className="subtitle">
-          <a href="#Projects" id="whitelink">Software Engineer</a> | <Link to="/Photography" id="whitelink">Photographer</Link> | <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer">Musician</a>
-        </p>
+        <Typing>
+          <p className="title">
+            Dec Burns
+          </p>
+
+          <p className="subtitle">
+            <a href="#Projects" id="whitelink">Software Engineer</a> | <Link to="/Photography" id="whitelink">Photographer</Link> | <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer">Musician</a>
+          </p>
+        </Typing>
       </div>
     </div>
     <div id="scroll" className="has-text-centered">
