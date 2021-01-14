@@ -26,14 +26,14 @@ const Howto = () => {
           <br></br>
         </p>
         <div id="project-links">
-          <div id="project-icon-container" className="icon is-large has-text-dark">
+          <a href="https://github.com/dec1992/GA-Project-4" target="_blank" rel="noreferrer" id="project-icon-container" className="icon is-large has-text-dark">
             <i id="projecticon" className=" devicon-github-original-wordmark"></i>
             <p className="help is-family-secondary">github repo</p>
-          </div>
-          <div id="project-icon-container" className="icon is-large has-text-dark">
+          </a>
+          <a href="https://howtotube.herokuapp.com/" target="_blank" rel="noreferrer" id="project-icon-container" className="icon is-large has-text-dark">
             {LeftArrow}
             <p className="help is-family-secondary">go to project</p>
-          </div>
+          </a>
         </div>
       </div>
     </div>

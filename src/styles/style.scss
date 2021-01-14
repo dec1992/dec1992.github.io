@@ -119,6 +119,18 @@ $link: $beige-light;
   transform: scaleX(1);
 }
 
+#contact-link-dark:after {
+  display: block;
+  padding: 5px 0px 5px 0px;
+  content: '';
+  border-bottom: solid 3px $link; 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+#contact-link-dark:hover:after {
+  transform: scaleX(1);
+}
+
 
 
 @import "../../node_modules/bulma/bulma.sass";

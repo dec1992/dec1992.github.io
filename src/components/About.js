@@ -2,7 +2,7 @@ import React from 'react'
 import Skills from './Skills'
 
 const About = () => {
-  return <section className="section has-background-dark">
+  return <section id="About" className="section has-background-dark">
     <div className="conainer has-text-centered">
       <p className="title has-text-primary">About</p>
       <div className="columns is-centered">

@@ -30,7 +30,7 @@ const Projects = () => {
     }
   }
 
-  return <section className="section has-background-primary">
+  return <section id="Projects" className="section has-background-primary">
     <div className="container has-text-centered">
       <div className="title">Projects</div>
       <div id="slideNav">

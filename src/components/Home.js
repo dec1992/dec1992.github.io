@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return <section className="hero is-primary is-fullheight">
@@ -9,16 +10,16 @@ const Home = () => {
           <div id="navbarMenuHeroB" className="navbar-menu">
             <div className="navbar-end">
       
-              <a id="whitelink" className="navbar-item">
+              <a href="#About" id="whitelink" className="navbar-item">
                 About
               </a>
-              <a id="whitelink" className="navbar-item">
+              <a href="#Projects" id="whitelink" className="navbar-item">
                 Projects
               </a>
-              <a id="whitelink" className="navbar-item">
+              <Link to="/Photography" id="whitelink" className="navbar-item">
                 Photography
-              </a>
-              <a id="whitelink" className="navbar-item">
+              </Link>
+              <a href="#Contact" id="whitelink" className="navbar-item">
                 Contact
               </a>
             </div>
@@ -33,7 +34,7 @@ const Home = () => {
           Dec Burns
         </p>
         <p className="subtitle">
-          <a id="whitelink">Software Engineer</a> | <a id="whitelink">Photographer</a> | <a id="whitelink">Musician</a>
+          <a href="#Projects" id="whitelink">Software Engineer</a> | <a id="whitelink">Photographer</a> | <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer">Musician</a>
         </p>
       </div>
     </div>
