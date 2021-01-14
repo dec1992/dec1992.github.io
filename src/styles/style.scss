@@ -43,6 +43,16 @@ $link: $beige-light;
 // $react-rater-link: rgb(191, 246, 191) !default; // color of star not rated
 // $react-rater-hover: rgb(110, 235, 79) !default; // color of star on hover
 // $react-rater-active: rgb(123, 251, 4) !default; // color of star rated
+
+
+#scroll {
+  display: none;
+}
+
+#mobnavlight {
+  display: none;
+}
+
 #whitelink:hover {
   color: white
 }
@@ -131,6 +141,16 @@ $link: $beige-light;
   transform: scaleX(1);
 }
 
+@media screen and (max-width:1023px) {
+  #mobnavlight {
+    display: flex;
+  }
+
+  #scroll {
+    display:inherit;
+    margin: 0 auto 50px;
+  }
+}
 
 
 @import "../../node_modules/bulma/bulma.sass";

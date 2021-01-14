@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
+const DownArrow = <FontAwesomeIcon id="arrow" icon={faAngleDown} />
+
 const Home = () => {
   return <section className="hero is-primary is-fullheight">
     <div className="hero-head">
@@ -34,9 +39,12 @@ const Home = () => {
           Dec Burns
         </p>
         <p className="subtitle">
-          <a href="#Projects" id="whitelink">Software Engineer</a> | <a id="whitelink">Photographer</a> | <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer">Musician</a>
+          <a href="#Projects" id="whitelink">Software Engineer</a> | <Link to="/Photography" id="whitelink">Photographer</Link> | <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer">Musician</a>
         </p>
       </div>
+    </div>
+    <div id="scroll" className="has-text-centered">
+      <a href="#About" className="has-text-dark">{DownArrow}</a>
     </div>
   </section>
 

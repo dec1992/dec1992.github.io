@@ -18,14 +18,68 @@ const Gallery = () => {
 
         media={[
           {
-            source: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg'
+            source: 'https://i.imgur.com/NlxrygW.jpg'
           },
           {
-            source: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg'
+            source: 'https://i.imgur.com/HkKa66I.jpg'
+          },
+          // {
+          //   source: 'https://i.imgur.com/EIUxOIy.jpg'
+          // },
+          {
+            source: 'https://i.imgur.com/T06oOUS.jpg'
           },
           {
-            source: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg'
+            source: 'https://i.imgur.com/RkitxfL.jpg'
+          },
+          {
+            source: 'https://i.imgur.com/9Ce6ryd.jpg'
+          },
+          {
+            source: 'https://i.imgur.com/EwDTAS4.jpg'
+          },
+          {
+            source: 'https://i.imgur.com/qTfyK95.jpg'
+          },
+          // {
+          //   source: 'https://i.imgur.com/ZbRtbuA.jpg'
+          // },
+          // {
+          //   source: 'https://i.imgur.com/A3yht2F.jpg'
+          // },
+          {
+            source: 'https://i.imgur.com/Rc9IHjV.jpg'
+          },
+          {
+            source: 'https://i.imgur.com/L7jviZb.jpg'
+          },
+          // {
+          //   source: 'https://i.imgur.com/Z1DNXci.jpg'
+          // },
+          {
+            source: 'https://i.imgur.com/2J2Hzdl.jpg'
+          },
+          {
+            source: 'https://i.imgur.com/kASWL15.jpg'
+          },
+          {
+            source: 'https://i.imgur.com/uUoG2mY.jpg'
           }
+          // {
+          //   source: 'https://i.imgur.com/XSh9S5n.jpg'
+          // }
+          // {
+          //   source: 'https://i.imgur.com/pb8vdi8.jpg'
+          // },
+          // {
+          //   source: 'https://i.imgur.com/1KhDQVt.jpg'
+          // },
+          // {
+          //   source: 'https://i.imgur.com/ugEBWva.jpg'
+          // },
+          // {
+          //   source: 'https://i.imgur.com/HrMrwlj.jpg'
+          // }
         ]}
       />
     </div>
