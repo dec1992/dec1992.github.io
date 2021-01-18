@@ -53,8 +53,12 @@ $link: $beige-light;
   display: none;
 }
 
-#whitelink:hover {
+#whitelink:hover, #whitelink-line:hover {
   color: white
+}
+
+#whitelink-line {
+  text-decoration: underline;
 }
 
 #icon-container {
@@ -86,6 +90,11 @@ $link: $beige-light;
 }
 
 #arrow {
+  font-size: 1rem;
+  margin: 0px 30px 0px 30px;
+}
+
+#arrow-static {
   font-size: 1rem;
   margin: 0px 30px 0px 30px;
 }

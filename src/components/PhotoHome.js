@@ -6,7 +6,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 import Typing from 'react-typing-animation'
 
-const DownArrow = <FontAwesomeIcon id="arrow" icon={faAngleDown} />
+const DownArrow = <FontAwesomeIcon id="arrow-static" icon={faAngleDown} />
 
 const Home = () => {
   return <section className="hero is-dark is-fullheight">
@@ -55,7 +55,7 @@ const Home = () => {
 
 
           <div>
-            <p className="is-size-6 has-text-primary">{DownArrow} Take a look at <a href="#Gallery" className="has-text-primary" id="whitelink">my gallery</a> {DownArrow} </p>
+            <p className="is-size-6 has-text-primary">{DownArrow} Take a look at <a href="#Gallery" className="has-text-primary" id="whitelink-line">my gallery</a> {DownArrow} </p>
 
 
           </div>
