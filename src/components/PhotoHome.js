@@ -63,9 +63,9 @@ const Home = () => {
         </Typing>
       </div>
     </div>
-    <div id="scroll" className="has-text-centered">
+    {/* <div id="scroll" className="has-text-centered">
       <a href="#Gallery" className="has-text-primary">{DownArrow}</a>
-    </div>
+    </div> */}
   </section>
 
 
