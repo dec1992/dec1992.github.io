@@ -44,6 +44,22 @@ const Home = () => {
           <p className="subtitle has-text-primary">
             <a href="#Gallery" id="whitelink" className="has-text-primary">Photographer</a> | <Link to="/" id="whitelink" className="has-text-primary">Software Engineer</Link> |  <a href="https://www.youtube.com/watch?v=es3SWImE2yw" id="whitelink" target="_blank" rel="noopener noreferrer" className="has-text-primary">Musician</a>
           </p>
+          <Typing.Delay ms={3000} />
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
+
+          <div>
+            <p className="is-size-6 has-text-primary">{DownArrow} Take a look at <a href="#Gallery" className="has-text-primary" id="whitelink">my gallery</a> {DownArrow} </p>
+
+
+          </div>
+
         </Typing>
       </div>
     </div>
