@@ -4,7 +4,7 @@ import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 import Singleproject from './Singleproject'
 
-const slideArray = [1, 2, 3, 4]
+const slideArray = [1, 2, 3, 4, 5]
 const LeftArrow = <FontAwesomeIcon id="arrow" icon={faAngleLeft} />
 const RightArrow = <FontAwesomeIcon id="arrow" icon={faAngleRight} />
 
@@ -24,7 +24,7 @@ const Projects = () => {
   function handlePrevious() {
     let tempSlide = slideIndex
     if (tempSlide === 1) {
-      setSlideIndex(4)
+      setSlideIndex(5)
     } else {
       setSlideIndex(tempSlide -= 1)
     }

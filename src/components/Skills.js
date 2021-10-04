@@ -22,10 +22,13 @@ const Skills = () => {
       <i id="icon" className=" devicon-javascript-plain"><div id="javascript"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-python-plain"><div id="python"></div></i>
+      <i id="icon" className=" devicon-react-plain"><div id="react"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-react-plain"><div id="react"></div></i>
+      <i id="icon" className=" devicon-express-original"><div id="express"></div></i>
+    </div>
+    <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
+      <i id="icon" className=" devicon-nodejs-plain"><div id="node.js"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-html5-plain-wordmark"><div id="html5"></div></i>
@@ -37,12 +40,6 @@ const Skills = () => {
       <i id="icon" className=" devicon-sass-plain"><div id="sass"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-express-original"><div id="express"></div></i>
-    </div>
-    <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-nodejs-plain"><div id="node.js"></div></i>
-    </div>
-    <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-npm-original-wordmark"><div id="npm"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
@@ -52,19 +49,22 @@ const Skills = () => {
       <i id="icon" className=" devicon-postgresql-plain-wordmark"><div id="postgrestql"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-bootstrap-plain"><div id="bootstrap"></div></i>
-    </div>
-    <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-webpack-plain"><div id="webpack"></div></i>
+      <i id="icon" className="devicon-docker-plain"><div id="docker"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-git-plain"><div id="git"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
-      <i id="icon" className=" devicon-github-original-wordmark"><div id="github"></div></i>
+      <i id="icon" className="devicon-gatsby-plain"><div id="gatsby"></div></i>
+    </div>
+    <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
+      <i id="icon" className="devicon-amazonwebservices-plain-wordmark"><div id="AWS"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-heroku-original"><div id="heroku"></div></i>
+    </div>
+    <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
+      <i id="icon" className=" devicon-python-plain"><div id="python"></div></i>
     </div>
     <div onMouseOver={handleSkill} id ="icon-container" className="icon is-large">
       <i id="icon" className=" devicon-photoshop-plain"><div id="photoshop"></div></i>

@@ -2,6 +2,7 @@ import React from 'react'
 
 // import each project
 
+import Dbd from './Dbd'
 import Howto from './Howto'
 import Spacefrog from './Spacefrog'
 import Greenworld from './Greenworld'
@@ -15,18 +16,22 @@ const SingleProject = ({ slideIndex }) => {
 
   return <div>
     {slideIndex === 1 ?
-      <Howto />
+      <Dbd />
       : null
     }
     {slideIndex === 2 ?
-      <Spacefrog />
+      <Howto />
       : null
     }
     {slideIndex === 3 ?
-      <Greenworld />
+      <Spacefrog />
       : null
     }
     {slideIndex === 4 ?
+      <Greenworld />
+      : null
+    }
+    {slideIndex === 5 ?
       <Superseach />
       : null
     }
