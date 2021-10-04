@@ -14,7 +14,7 @@ const Projects = () => {
 
   function handleNext() {
     let tempSlide = slideIndex
-    if (tempSlide === 4) {
+    if (tempSlide === 5) {
       setSlideIndex(1)
     } else {
       setSlideIndex(tempSlide += 1)
